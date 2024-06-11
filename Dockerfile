@@ -6,3 +6,5 @@ RUN ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ENV TZ=Asia/Shanghai
 
 RUN corepack prepare pnpm
+
+RUN pnpm add -g prisma
